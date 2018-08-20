@@ -1,3 +1,42 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+  max-width: 60%;
+  margin: 30px auto;
+}
+
+
+a{
+  text-decoration: none;
+  padding: 5px 8px;
+  // display: inline-block;
+  border-radius: 15px;
+  margin: 40px 5px;
+  color: black;
+  border: 1px solid red;
+}
+
+a:hover{
+  color: white;
+  background-color: red;
+}
+
+h2{
+  margin: 50px 0 10px 0px;
+}
+
+div{
+  margin: 0 0 10px 0;
+}
+
+textarea{
+  width: 80%;
+  max-height: 300px;
+  min-height: 100px;
+  padding: 8px 5px;
+  line-height: 17px;
+  font-size: 15px;
+}
