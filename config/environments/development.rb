@@ -13,7 +13,12 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   #need to change this to actual host when in proudtion
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'https://vast-brook-57671.herokuapp.com/' }
+
+  # Prevent initializing the application before assets are precompiled (required for heroku)
+  config.assets.initialize_on_precompile = false
+  # Add Rails Admin assets (required)
+  config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
@@ -62,3 +67,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 end
+
+
