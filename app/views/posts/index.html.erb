@@ -1,6 +1,9 @@
 <% @posts.each do |post| %>
   <h2> <%= post.title %> </h2>
-  <div class="article"> <%= truncate(post.body, :length => 250) %> </div>
+  <div class="article"> <%= truncate(post.body, :length => 250) %>
+  <span class="user-name"> <%= post.user.email %> </span>
+  </div>
+
   <br>
   <%= link_to "Read Post", post %>
 <% end %>
