@@ -1,6 +1,13 @@
 <h1> <%= @post.title %> </h1>
 
-<div class="article"> <%= @post.body %> </div>
+<div class="article">
+  <% if @post.image? %>
+    <%= image_tag @post.image.url(:medium) %>
+  <% end %>
+  <span class="show-post"> <%= @post.body %> </span>
+</div>
+
+
 
 <% if @post.user == current_user %>
   <%= link_to "Edit Post", edit_post_path(@post) %>

@@ -10,14 +10,16 @@
   </head>
 
   <body>
-
-    <%= link_to "Home", root_path %>
-    <%= link_to "Create Post", new_post_path %>
+    <span class="nav-links">
+      <%= link_to "Home", root_path %>
+      <%= link_to "Create Post", new_post_path %>
+    </span>
 
     <hr>
+<span class="sign-up-in-links">
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-
+</span>
     <%= yield %>
   </body>
 </html>
