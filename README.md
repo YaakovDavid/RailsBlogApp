@@ -23,7 +23,7 @@
 <p>
   Built with Ruby on Rails <br />
 
-  Using the paperclip Gem for images
+  Using the devise and paperclip Gems for user auth and image upload
 </p>
 
 
@@ -35,10 +35,9 @@
 </P>
 
 <h1> Screen shots:</h1>
-<img src="public/system/posts/images/full-page.png" height="200" width="350">
-<img src="public/system/posts/images/ruby-dude.png" height="200" width="350">
-
-<img src="public/system/posts/images/lorem-1.png" height="200" width="350">
+<img src="public/system/posts/images/full-page.png" height="300" width="450">
+<img src="public/system/posts/images/ruby-dude.png" height="300" width="450">
+<img src="public/system/posts/images/lorem-1.png" height="300" width="450">
 
 
 <h1>Installation instructions:</h1>
