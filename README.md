@@ -35,9 +35,9 @@
 </P>
 
 <h1> Screen shots:</h1>
-<img src="public/system/posts/images/full-page.png" height="300" width="450">
-<img src="public/system/posts/images/ruby-dude.png" height="300" width="450">
-<img src="public/system/posts/images/lorem-1.png" height="300" width="450">
+<img src="public/system/posts/images/full-page.png" height="300" width="450"> <hr>
+<img src="public/system/posts/images/ruby-dude.png" height="300" width="450"> <hr>
+<img src="public/system/posts/images/lorem-1.png" height="300" width="450"> <hr> <hr>
 
 
 <h1>Installation instructions:</h1>
