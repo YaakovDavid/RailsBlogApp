@@ -1,24 +1,52 @@
-# README
+<h1>Blog (for the time being)</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p>
+  Blog is a web application with full CRUD functionality with the goal of being simalar to facebook with regard to posting articles, images, and videos.
+</p>
 
-Things you may want to cover:
+<p>
+  Currently images is only availble on your local machine that is if you download this code and run it on localhost:3000. I'm working on having images as well as video running on heroku as well.
+</p>
 
-* Ruby version
 
-* System dependencies
+<h1>User stories:</h1>
+<p>
+  I have information I would like to share with others.<br />
+  I have information I would like to see pictures along with the articles.<br />
+  I have information I would like to be able to share videos with others.
+</p>
 
-* Configuration
+<h1>Wireframes: </h1>
+<img src=" " height="300" width="500">
 
-* Database creation
+<h1>Tech:</h1>
+<p>
+  Built with Ruby on Rails <br />
 
-* Database initialization
+  Using the paperclip Gem for images
+</p>
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+<h1>Future endevors:</h1>
+<p>
+  Images on Heroku. <br />
+  Add video and file attachments. <br />
+  Add drop and drag to upload files.
+</P>
 
-* Deployment instructions
+<h1> Screen shots:</h1>
+<img src="public/system/posts/images/full-page.png" height="200" width="350">
+<img src="public/system/posts/images/ruby-dude.png" height="200" width="350">
 
-* ...
+<img src="public/system/posts/images/lorem-1.png" height="200" width="350">
+
+
+<h1>Installation instructions:</h1>
+<p>
+$ heroku pg:reset DATABASE_URL <br />
+$ heroku run rake db:migrate <br />
+$ heroku run rake db:seed <br />
+$ rails s
+</P>
+
+
